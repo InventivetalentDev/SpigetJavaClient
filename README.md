@@ -1,4 +1,4 @@
 # SpigetJavaClient
-[![Build Status](http://ci.inventivetalent.org/job/SpigetJavaClient/badge/icon)](http://ci.inventivetalent.org/job/SpigetJavaClient/) 
+[![Build Status](https://travis-ci.org/InventivetalentDev/SpigetJavaClient.svg?branch=master)](https://travis-ci.org/InventivetalentDev/SpigetJavaClient)
 
 Java client for api.spiget.org
