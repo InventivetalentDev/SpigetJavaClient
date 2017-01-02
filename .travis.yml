@@ -3,9 +3,6 @@ jdk:
 - oraclejdk8
 
 script: "mvn deploy --settings settings.xml"
-branches:
-  except:
-  - travis
 env:
   global:
   - secure: "XjS5KUwhWudytePEI9MT1tJasbmmaJcP+RWKTnEucM5uws6ogMWZb7flKZvn8EFvgGMXiGV85QmPqPEHA7ktuWRzhRdaWcMgkXC1mmb+k3CHZpUYtibWztQRj/XuRNWpjcGrZ8/I/6VklxNPesqc/7Sw4KOvmd2c4LgkO7yJCVH7hRk7DqzK01Q1icFAvjh9ttXQloS5iEMOWr8GGiJtg6W/gKUzTLfBeakudbs4phxcXmQpLvvXbxnHk0gnVxffogLn+I8T1/X/9S2mr3iQS+sX5mK0pIGQNBmAb9a8qYGZyQdlwGIH9Lrzjjv08IwFxG6UNwMgRTGVCpO1X46G6fVrkAwzPQ0YjsMCwJpBAXzzmN+jeq4l/1wwPssgSbYkpHFRJgIpvUmwTyKVBs7ajjztAQD9i9RkjcKhnfQlB0ewQKFFydgDXD79IVUbw4jkhBDeaehUpUyja8lCOBAifJUllPufnQI2+CMdZs6EmUoPoTUdoZTrc8nn96i0lOFzoIZuj54DwCoXACk0Npz/9dzpusCu55FknmpsutpClWGVZ9Ff/HVgfJp0Cp2FnaLU/Vq4Kn7amMeVCL+WUbByDDIoAE6XYpJrTnMVh4Flcgv+FkUQXC6a9rOfO5KN+nU5zLvrtmo+wQU1wPU8Uz+oAIf4G1CCIjP6/ojWkTGzTwY="
