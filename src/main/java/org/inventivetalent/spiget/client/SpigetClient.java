@@ -21,7 +21,7 @@ public class SpigetClient {
 	 * @param userAgent User-Agent
 	 */
 	public SpigetClient(String userAgent) {
-		this.userAgent = "SpigetJavaClient/2.0";
+		this.userAgent = userAgent;
 	}
 
 	/**
